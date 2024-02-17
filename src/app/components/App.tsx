@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/logo.svg';
 import '../styles/ui.css';
+import Hello from './Hello';
 
 function App() {
   // const textbox = React.useRef<HTMLInputElement>(undefined);
@@ -41,7 +42,8 @@ function App() {
     //   </button>
     //   <button onClick={onCancel}>Cancel</button>
     // </div>
-    <div>Hello, World!</div>
+    // <div>Hello, World!</div>
+    <Hello />
   );
 }
 
